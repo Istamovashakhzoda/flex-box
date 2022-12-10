@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  margin: 20px;
+  font-size: 52px;
+}
+
+p {
+  text-align: center;
+  line-height: 20px;
+  margin: 20px 250px;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-ExtraLightItalic.ttf),
+    url(./fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-ExtraBoldItalic.ttf);
+}
+
+.text-1 {
+  font-family: lato;
+}
+
+.text-2 {
+  font-family: Poppins;
+}
